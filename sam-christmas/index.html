@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bary@kali — winter terminal</title>
+<meta name="description" content="A quiet winter about-me page. Terminal, snow, and a countdown.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="snow" aria-hidden="true"></canvas>
+<div class="aurora" aria-hidden="true"></div>
+
+<div class="countdown" aria-label="Countdown to Christmas">
+  <div class="count-number" id="days">--</div>
+  <div class="count-label">days until<br>christmas</div>
+</div>
+
+
+<main class="terminal" aria-label="About Sam" id="terminal">
+  <div id="term-output"></div>
+  <div class="term-line" id="term-active-line" aria-live="polite"></div>
+</main>
+
+
+<img class="figure left" src="cute.png" alt="" aria-hidden="true">
+<img class="figure right" src="cute2.png" alt="" aria-hidden="true">
+
+<footer>built by bary · no trackers · no downloads · <span id="year"></span></footer>
+<script src="script.js"></script>
+</body>
+</html>
