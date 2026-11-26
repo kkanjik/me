@@ -1,10 +1,9 @@
-// ── terminal typewriter ──────────────────────────────────────────────────────
+
 
 const LINKS = {
   discord: "https://discord.com/users/1353622158730985474"
 };
 
-// Kali two-line prompt — first line is display only, second line has the $
 const PROMPT_LINE1 = `<span class="prompt">┌──(</span><span class="prompt">bary</span><span class="prompt-at">㉿</span><span class="prompt-host">kali</span><span class="prompt">)-[</span><span class="prompt-path">~</span><span class="prompt">]</span>`;
 const PROMPT_LINE2 = `<span class="prompt-sym">└─</span><span class="prompt">$</span>`;
 const PROMPT = PROMPT_LINE1 + "\n" + PROMPT_LINE2;
