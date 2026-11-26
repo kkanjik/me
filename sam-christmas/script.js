@@ -9,8 +9,7 @@ const PROMPT_LINE1 = `<span class="prompt">┌──(</span><span class="prompt"
 const PROMPT_LINE2 = `<span class="prompt-sym">└─</span><span class="prompt">$</span>`;
 const PROMPT = PROMPT_LINE1 + "\n" + PROMPT_LINE2;
 
-// Script: each entry is { type, content, delay }
-// type: "boot" | "cmd" | "out" | "blank" | "bar" | "link-row"
+
 const TERMINAL_SCRIPT = [
   { type: "boot", content: `<span class="term-dim">Kali GNU/Linux — terminal session opened</span>`, delay: 0 },
   { type: "boot", content: `<span class="term-dim">Last login: Dec 25 00:00:01 on tty1</span>`, delay: 60 },
